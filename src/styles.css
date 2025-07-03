@@ -10,6 +10,28 @@ main > * {
   border: 1px solid red;
 }
 
+:root {
+  /* 01 COLORS */
+  --blue-300: #d0d6f9;
+  --blue-900: #0b0d17;
+  --white: #ffffff;
+
+  /* 03 SPACING */
+  --spacing-1600: 128px;
+  --spacing-1200: 96px;
+  --spacing-1000: 80px;
+  --spacing-800: 64px;
+  --spacing-600: 48px;
+  --spacing-500: 40px;
+  --spacing-400: 32px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+  --spacing-25: 2px;
+}
+
 body {
   display: flex;
   flex-direction: column;
