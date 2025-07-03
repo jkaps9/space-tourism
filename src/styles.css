@@ -25,16 +25,21 @@
   font-style: normal;
 }
 
+/* RESETS */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body > *,
-main > * {
-  /* For development purposes only */
-  /* border: 1px solid red; */
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
 }
 
 :root {
@@ -74,6 +79,14 @@ main > * {
   line-height: normal;
 }
 
+.text-preset-4 {
+  font-family: var(--bellefair);
+  font-size: 1.125rem;
+  font-weight: normal;
+  letter-spacing: 0px;
+  line-height: normal;
+}
+
 .text-preset-6 {
   font-family: var(--barlow-condensed);
   font-size: 1rem;
@@ -88,6 +101,14 @@ main > * {
   font-weight: normal;
   letter-spacing: 0;
   line-height: 180%;
+}
+
+/* General Styling */
+
+body > *,
+main > * {
+  /* For development purposes only */
+  /* border: 1px solid red; */
 }
 
 body {
@@ -157,6 +178,15 @@ main {
       flex: 1;
       display: flex;
       align-items: center;
+
+      button {
+        color: var(--blue-900);
+        background-color: var(--white);
+        width: 9rem;
+        height: 9rem;
+        border: none;
+        border-radius: 999px;
+      }
     }
   }
 }
