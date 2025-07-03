@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body > *,
+main > * {
+  /* For development purposes only */
+  border: 1px solid red;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+body > * {
+  width: 100%;
+  max-width: 1400px;
+  padding: 15px;
+}
+
+header,
+footer {
+  flex: 0;
+  height: 72px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex: 1;
+}
