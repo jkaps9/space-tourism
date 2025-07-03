@@ -147,6 +147,12 @@ main {
       color: var(--white);
     }
 
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-300);
+    }
+
     .button-wrapper {
       flex: 1;
       display: flex;
