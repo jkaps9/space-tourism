@@ -40,6 +40,7 @@ button {
   overflow: visible;
   text-transform: none;
   -webkit-appearance: button;
+  cursor: pointer;
 }
 
 :root {
@@ -173,14 +174,27 @@ header {
       width: 100%;
       padding: var(--spacing-400) var(--spacing-300);
       list-style: none;
-      color: var(--white);
       display: flex;
       flex-direction: column;
       gap: var(--spacing-400);
+
       span {
         font-weight: bold;
         letter-spacing: 2.7px;
         margin-right: var(--spacing-150);
+      }
+
+      li a {
+        text-decoration: none;
+        color: var(--white);
+        cursor: pointer;
+        padding-bottom: 4px;
+      }
+
+      li:hover {
+        a {
+          border-bottom: 1px solid var(--white);
+        }
       }
     }
   }
