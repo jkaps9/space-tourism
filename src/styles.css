@@ -69,12 +69,20 @@ body > * {
   padding: 15px;
 }
 
-header,
-footer {
+/* HEADER */
+header {
   flex: 0;
   height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    display: none;
+  }
 }
 
+/* MAIN */
 main {
   flex: 1;
   display: flex;
