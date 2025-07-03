@@ -158,7 +158,7 @@ header {
     top: 0;
     right: 0;
     bottom: 0;
-    min-width: 254px;
+    min-width: 55%;
     background-color: var(--blue-900-opaque);
     backdrop-filter: blur(24px) brightness(75%);
     transform: translateX(0);
