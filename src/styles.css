@@ -183,6 +183,11 @@ header {
   }
 }
 
+.img-button {
+  background-color: transparent;
+  border: none;
+}
+
 /* MAIN */
 main {
   flex: 1;
