@@ -104,13 +104,6 @@ button {
 }
 
 /* General Styling */
-
-body > *,
-main > * {
-  /* For development purposes only */
-  /* border: 1px solid red; */
-}
-
 body {
   display: flex;
   flex-direction: column;
