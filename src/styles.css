@@ -46,7 +46,7 @@ button {
   /* 01 COLORS */
   --blue-300: #d0d6f9;
   --blue-900: #0b0d17;
-  --blue-900-opaque: rgba(11, 13, 23, 35%);
+  --blue-900-opaque: rgba(11, 13, 23, 80%);
   --white: #ffffff;
 
   /* 03 SPACING */
@@ -89,6 +89,14 @@ button {
 }
 
 .text-preset-6 {
+  font-family: var(--barlow-condensed);
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+.text-preset-8 {
   font-family: var(--barlow-condensed);
   font-size: 1rem;
   font-weight: normal;
@@ -151,8 +159,26 @@ header {
     min-width: 254px;
     background-color: var(--blue-900-opaque);
     backdrop-filter: blur(24px) brightness(75%);
+
+    div {
+      width: 100%;
+      padding: var(--spacing-400) var(--spacing-300);
+      text-align: end;
+    }
+
     ul {
+      width: 100%;
+      padding: var(--spacing-400) var(--spacing-300);
       list-style: none;
+      color: var(--white);
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-400);
+      span {
+        font-weight: bold;
+        letter-spacing: 2.7px;
+        margin-right: var(--spacing-150);
+      }
     }
   }
 }
