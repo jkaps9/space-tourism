@@ -46,6 +46,7 @@ button {
   /* 01 COLORS */
   --blue-300: #d0d6f9;
   --blue-900: #0b0d17;
+  --blue-900-opaque: rgba(11, 13, 23, 35%);
   --white: #ffffff;
 
   /* 03 SPACING */
@@ -138,8 +139,21 @@ header {
     }
   }
 
-  nav {
+  .hidden {
     display: none;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 254px;
+    background-color: var(--blue-900-opaque);
+    backdrop-filter: blur(24px) brightness(75%);
+    ul {
+      list-style: none;
+    }
   }
 }
 
