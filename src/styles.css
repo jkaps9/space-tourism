@@ -25,7 +25,7 @@
 body > *,
 main > * {
   /* For development purposes only */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 :root {
