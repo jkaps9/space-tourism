@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "bellefairregular";
+  font-family: "Bellefair";
   src:
     url("./fonts/bellefair-regular-webfont.woff2") format("woff2"),
     url("./fonts/bellefair-regular-webfont.woff") format("woff");
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "barlow_condensedregular";
+  font-family: "Barlow Condensed";
   src:
     url("./fonts/barlowcondensed-regular-webfont.woff2") format("woff2"),
     url("./fonts/barlowcondensed-regular-webfont.woff") format("woff");
@@ -48,6 +48,29 @@ main > * {
   --spacing-100: 8px;
   --spacing-50: 4px;
   --spacing-25: 2px;
+
+  --bellefair: "Bellefair", Georgia, "Times New Roman", Times, serif;
+
+  --barlow-condensed: "Barlow Condensed", Arial, Helvetica, sans-serif;
+}
+
+/* Text Presets */
+.text-preset-1 {
+  font-family: var(--bellefair);
+  font-size: 5rem;
+  letter-spacing: 0;
+}
+
+.text-preset-6 {
+  font-family: var(--barlow-condensed);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.text-preset-9 {
+  font-family: var(--barlow-condensed);
+  font-size: 0.9375rem;
+  letter-spacing: 0;
 }
 
 body {
