@@ -147,8 +147,8 @@ header {
     }
   }
 
-  .hidden {
-    display: none;
+  .mobile-menu.hidden {
+    transform: translateX(100%);
   }
 
   .mobile-menu {
@@ -159,6 +159,8 @@ header {
     min-width: 254px;
     background-color: var(--blue-900-opaque);
     backdrop-filter: blur(24px) brightness(75%);
+    transform: translateX(0);
+    transition: transform 0.3s linear;
 
     div {
       width: 100%;
