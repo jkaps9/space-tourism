@@ -48,6 +48,7 @@ button {
   --blue-900: #0b0d17;
   --blue-900-opaque: rgba(11, 13, 23, 80%);
   --white: #ffffff;
+  --white-transparent: rgba(255, 255, 255, 0.1);
 
   /* 03 SPACING */
   --spacing-1600: 128px;
@@ -219,13 +220,18 @@ main {
       display: flex;
       align-items: center;
 
-      button {
+      #explore-btn {
         color: var(--blue-900);
         background-color: var(--white);
         width: 9rem;
         height: 9rem;
         border: none;
         border-radius: 999px;
+        box-shadow: 0 0 0 0 transparent;
+      }
+
+      #explore-btn:hover {
+        box-shadow: 0 0 0 88px var(--white-transparent);
       }
     }
   }
