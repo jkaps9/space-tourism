@@ -1,2 +1,5 @@
 node_modules
 dist
+/preview.jpg
+/README-template.md
+starter-code
