@@ -363,3 +363,9 @@ main {
     height: 17rem;
   }
 }
+
+@media (min-width: 1100px) {
+  body {
+    background-image: url("./assets/home/background-home-desktop.jpg");
+  }
+}
