@@ -115,6 +115,11 @@ button {
 }
 
 /* General Styling */
+html,
+body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -140,11 +145,6 @@ body > * {
   margin-right: var(--spacing-150);
 }
 
-li:hover {
-  a {
-    border-bottom: 1px solid var(--white);
-  }
-}
 /* HEADER */
 header {
   flex: 0;
@@ -194,6 +194,13 @@ header {
         color: var(--white);
         cursor: pointer;
         padding-bottom: 4px;
+        border-bottom: 3px solid transparent;
+      }
+
+      li:hover {
+        a {
+          border-bottom: 3px solid var(--white);
+        }
       }
     }
   }
@@ -250,15 +257,16 @@ main {
   }
 }
 
-@media (max-width: 749px) {
+@media (max-width: 767px) {
   .main-menu {
     display: none;
   }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
   /* HEADER */
   header {
+    min-height: 96px;
     padding: 0;
 
     .logo {
@@ -274,6 +282,10 @@ main {
     }
 
     nav.main-menu {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
       min-width: 488px;
       padding: 0 var(--spacing-500);
       flex: 1 0 0;
@@ -285,8 +297,21 @@ main {
       list-style: none;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
       gap: var(--spacing-600);
+      height: 100%;
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        border-bottom: 3px solid transparent;
+        cursor: pointer;
+      }
+
+      li:hover {
+        border-bottom: 3px solid var(--white);
+      }
+
       a {
         text-decoration: none;
         color: var(--white);
