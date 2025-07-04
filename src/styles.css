@@ -378,7 +378,7 @@ main {
       width: 100%;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-end;
       gap: 30px;
       text-align: start;
       flex: 1 0 0;
