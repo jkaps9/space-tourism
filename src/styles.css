@@ -367,7 +367,9 @@ main {
 @media (min-width: 1248px) {
   body {
     justify-content: flex-start;
-    background-image: url("./assets/home/background-home-desktop.jpg");
+    background-image:
+      url("./assets/home/desktop-background-hi-res.png"),
+      url("./assets/home/background-home-desktop.jpg");
   }
 
   /* HEADER */
