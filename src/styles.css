@@ -368,4 +368,36 @@ main {
   body {
     background-image: url("./assets/home/background-home-desktop.jpg");
   }
+
+  main {
+    padding: var(--spacing-1600) 0;
+    align-items: center;
+
+    section {
+      max-width: 1110px;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      text-align: start;
+      flex: 1 0 0;
+
+      .text-wrapper,
+      .button-wrapper {
+        flex: 1 0 0;
+        max-width: 540px;
+        gap: var(--spacing-300);
+        flex-direction: column;
+      }
+
+      .button-wrapper {
+        align-items: flex-end;
+      }
+    }
+  }
+
+  .text-preset-9 {
+    font-size: 1.125em;
+  }
 }
