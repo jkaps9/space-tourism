@@ -389,7 +389,7 @@ main {
   main {
     padding: var(--spacing-1600) 0;
     align-items: center;
-
+    max-height: 888px;
     section {
       max-width: 1110px;
       width: 100%;
