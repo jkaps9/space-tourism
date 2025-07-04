@@ -250,3 +250,41 @@ main {
     }
   }
 }
+
+@media (min-width: 750px) {
+  main {
+    padding: var(--spacing-1600) var(--spacing-500);
+  }
+
+  section {
+    gap: var(--spacing-600);
+  }
+
+  .text-wrapper,
+  .button-wrapper {
+    max-width: 540px;
+  }
+
+  .text-preset-1 {
+    font-size: 9em;
+  }
+
+  .text-preset-4 {
+    font-size: 2em;
+  }
+
+  .text-preset-6 {
+    font-size: 1.75em;
+    letter-spacing: 4px;
+  }
+
+  .text-preset-9 {
+    /* TABLET ONLY - look at for desktop */
+    font-size: 1em;
+  }
+
+  main section .button-wrapper #explore-btn {
+    width: 17rem;
+    height: 17rem;
+  }
+}
