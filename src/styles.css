@@ -288,6 +288,12 @@ main {
       flex: 1 0 0;
       background-color: rgba(255, 255, 255, 0.05);
       backdrop-filter: blur(24px) brightness(75%);
+
+      ul li:first-child {
+        span {
+          display: none;
+        }
+      }
     }
 
     .main-menu ul {
@@ -295,6 +301,7 @@ main {
       display: flex;
       align-items: center;
       gap: var(--spacing-600);
+
       li {
         display: flex;
         flex-direction: column;
@@ -384,6 +391,12 @@ main {
     nav.main-menu {
       min-width: 664px;
       padding: 0 var(--spacing-800);
+
+      ul li:first-child {
+        span {
+          display: inline;
+        }
+      }
     }
   }
 
