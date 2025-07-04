@@ -364,6 +364,13 @@ main {
 
   /* HEADER */
   header {
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-800);
+      padding-left: var(--spacing-800);
+    }
+
     nav.main-menu {
       min-width: 664px;
       padding: 0 var(--spacing-800);
