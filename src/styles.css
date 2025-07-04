@@ -264,6 +264,9 @@ main {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-image: url("./assets/home/background-home-tablet.jpg");
+  }
   /* HEADER */
   header {
     min-height: 96px;
