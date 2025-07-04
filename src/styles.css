@@ -359,11 +359,13 @@ main {
 
 @media (min-width: 1248px) {
   body {
+    justify-content: flex-start;
     background-image: url("./assets/home/background-home-desktop.jpg");
   }
 
   /* HEADER */
   header {
+    padding-top: var(--spacing-500);
     .logo {
       display: flex;
       align-items: center;
