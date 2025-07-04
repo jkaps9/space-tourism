@@ -369,6 +369,14 @@ main {
       align-items: center;
       gap: var(--spacing-800);
       padding-left: var(--spacing-800);
+      max-width: none;
+      z-index: 2;
+      .line {
+        height: 1px;
+        flex: 1 0 0;
+        opacity: 0.25;
+        background-color: var(--white);
+      }
     }
 
     nav.main-menu {
