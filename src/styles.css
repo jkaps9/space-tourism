@@ -130,7 +130,7 @@ body {
 
 body > * {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1800px;
   padding: var(--spacing-300);
 }
 
