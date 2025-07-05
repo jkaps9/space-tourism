@@ -7,6 +7,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/template.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "destination-A.html",
+      template: "src/pages/destination-A.html",
+    }),
   ],
   output: {
     filename: "main.js",
