@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moon|Space</title>
+    <style>
+      main * {
+        border: 1px solid red;
+      }
+      li,
+      a,
+      span {
+        border: none;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -64,8 +74,47 @@
         </button>
       </div>
     </header>
-    <main>
-      <section></section>
+    <main class="destination-page">
+      <section class="title">
+        <div class="page-title">
+          <h2><span class="number">01</span> PICK YOUR DESTINATION</h2>
+        </div>
+      </section>
+      <section class="content">
+        <div class="image">
+          <img src="../assets/destination/image-moon.webp" alt="Moon" />
+        </div>
+        <div class="explanation">
+          <div class="tabs">
+            <ul>
+              <li><a href="./pages/destionation-A.html">MOON</a></li>
+              <li><a href="#">MARS</a></li>
+              <li><a href="#">EUROPA</a></li>
+              <li><a href="#">TITAN</a></li>
+            </ul>
+          </div>
+          <div class="text-wrapper">
+            <h1>MOON</h1>
+            <p>
+              See our planet as you’ve never seen it before. A perfect relaxing
+              trip away to help regain perspective and come back refreshed.
+              While you’re there, take in some history by visiting the Luna 2
+              and Apollo 11 landing sites.
+            </p>
+          </div>
+          <div class="statistics-wrapper">
+            <div class="distance">
+              <h3>AVG.DISTANCE</h3>
+              <p>384,400 KM</p>
+            </div>
+            <div class="line"></div>
+            <div class="travel-time">
+              <h3>EST. TRAVEL TIME</h3>
+              <p>3 DAYS</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
