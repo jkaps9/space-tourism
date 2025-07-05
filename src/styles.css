@@ -258,13 +258,19 @@ main {
 }
 
 /* DESTINATION PAGES */
-.tabs ul {
-  display: flex;
-  gap: var(--spacing-400);
-  list-style: none;
+.content {
+  .image img {
+    height: 150px;
+    width: auto;
+  }
+  .tabs ul {
+    display: flex;
+    gap: var(--spacing-400);
+    list-style: none;
 
-  a {
-    padding-bottom: 15px;
+    a {
+      padding-bottom: 15px;
+    }
   }
 }
 
