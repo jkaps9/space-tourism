@@ -260,10 +260,11 @@ main {
 /* DESTINATION PAGES */
 .tabs ul {
   display: flex;
+  gap: var(--spacing-400);
   list-style: none;
 
   a {
-    padding-bottom: 13px;
+    padding-bottom: 15px;
   }
 }
 
